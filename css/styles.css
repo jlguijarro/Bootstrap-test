@@ -20,7 +20,7 @@
     padding:70px 30px 70px 30px;
     margin:0px auto;
     background: #e0eea0 ;
-    color:rgb(67, 192, 223);
+    color:rgb(244, 26, 252);
 }
 
 .address{
@@ -32,4 +32,17 @@
 .copyright{
     padding-top: 3%;
 }
+.extra-padding{
+    padding-top: 7%;
+}
+.bottom-padding{
+    padding-bottom: 7%;
+}
 
+body{
+    padding-top: 3%;
+}
+
+.navbar-dark {
+    background-color: #03a77e;
+}
