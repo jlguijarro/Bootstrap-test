@@ -1,0 +1,16 @@
+$background-header: #007c6a;
+$background-body: #b8bb52;
+$lt-color1: #F9F8D0;
+$lt-color2: #644c4c;
+
+@mixin bg-defs($bc, $lc) {
+	background-color: $bc;
+    color: $lc;
+}
+
+.modal-header{
+    @include bg-defs($background-header, $lt-color1);
+}
+.modal-body{
+    @include bg-defs($background-body, $lt-color2);
+}
